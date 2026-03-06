@@ -1,0 +1,46 @@
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de log e banco de dados local
+*.log
+*.sqlite3
+
+# Ambientes virtuais
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Configurações do VS Code
+.vscode/
+
+# Cache de pacotes e builds
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Testes
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Configurações de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# não rastrear pastas de imagens e documentação por enquanto
+Galeria/
+Documentacao/
+
+# Arquivos do gerenciador de dependências
+uv.lock
