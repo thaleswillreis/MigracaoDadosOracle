@@ -44,3 +44,6 @@ Documentacao/
 
 # Arquivos do gerenciador de dependências
 uv.lock
+
+# Ignorar a pasta de dados, que pode conter arquivos grandes e sensíveis
+Origem/Dados/
